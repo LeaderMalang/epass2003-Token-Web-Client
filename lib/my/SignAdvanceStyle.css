@@ -1,0 +1,106 @@
+﻿.sign-logo {
+    background-color: #4285F4;
+    display: inline-block;
+    padding: 7px
+}
+
+.sign-logo-img {
+    min-width: 41px;
+    height: 50px;
+}
+
+.navbar {
+    background: #fff !important;
+    border: 1px solid #dedede;
+}
+
+    .navbar .title-text {
+        display: inline-grid;
+        margin: 0px;
+    }
+
+        .navbar .title-text input#document-name {
+            padding: 0px 3px;
+            border: 1px solid #fff;
+            border-radius: 3px;
+            font-size: 18px;
+        }
+
+            .navbar .title-text input#document-name:hover {
+                border: 1px solid #c8c8c8;
+            }
+
+            .navbar .title-text input#document-name:focus {
+                border: 1px solid #4285F4;
+            }
+
+.dropdown-menu.show {
+    padding: 0px;
+}
+
+.btn-group.icon-button .dropdown-menu.show {
+    display: flex;
+}
+
+.dropdown-toggle.no-dropdown-icon::after {
+    display: none
+}
+
+.btn-fixed {
+    position: fixed;
+}
+
+.pdf-header {
+    z-index: 10000;
+}
+
+.pdf-dialog-small {
+    border: 1px dashed #4285F4;
+    overflow: hidden;
+    width: 60px;
+}
+
+    .pdf-dialog-small:hover {
+        cursor: default;
+    }
+
+    .pdf-dialog-small .pdf-dialog-small-header {
+        width: 100%;
+        background: #4285F4;
+        height: 20px;
+        cursor: move;
+        resize: none;
+    }
+
+    .pdf-dialog-small textarea {
+        border: none;
+        width: 100%;
+        resize: none;
+        height: calc(100% - 20px);
+        font-size: smaller;
+    }
+
+        .pdf-dialog-small textarea:active, .pdf-dialog-small textarea:focus {
+            border: none;
+            outline: none;
+        }
+
+    .pdf-dialog-small.pdf-dialog-small-yellow {
+        border: 1px dashed #ffd800;
+    }
+
+        .pdf-dialog-small.pdf-dialog-small-yellow .pdf-dialog-small-header {
+            background: #ffd800
+        }
+
+    .pdf-dialog-small.pdf-dialog-small-unfocus {
+        border: none;
+    }
+
+        .pdf-dialog-small.pdf-dialog-small-unfocus .pdf-dialog-small-header {
+            background: unset;
+        }
+
+    .pdf-dialog-small .pdf-dialog-small-btn-close {
+        color: #FFF;
+    }
